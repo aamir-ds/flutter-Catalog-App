@@ -12,12 +12,10 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text('$name learn Flutter within $days days'),
+          child: Text('$name learn Flutter within $days days onlyy'),
         ),
       ),
-      drawer: Drawer(
-        backgroundColor: Color.fromARGB(255, 253, 29, 85),
-      ),
+      drawer: Drawer(),
     );
   }
 }
